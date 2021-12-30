@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*----------------------------------------------------- Body ---------------------------------------------------------------------------------*/
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /*background: linear-gradient(15deg, #252525, rgb(49, 49, 49));*/
+}
+
+/*---------------------------------------------------- Menu-1 ----------------------------------------------------------------------------------*/
+
+body .menu-1 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 1rem;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(13, 102, 235);
+}
+
+/*--------------------------------------------------- Logo -----------------------------------------------------------------------------------*/
+
+#imagination {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+}
+
+/*------------------------------------------------- Menu -------------------------------------------------------------------------------------*/
+
+.menu-1 {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu,
+a {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    padding: .9rem;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+.menu li a:hover {
+    background-color: rgb(250, 248, 248);
+    transition: .6s;
+    color: rgb(0, 98, 128);
+}
+
+/*-------------------------------------------------------- Category -1 -----------------------------------------------------------------------*/
+
+.category-1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(23, 24, 24);
+    padding: 1.9rem;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 38px;
+}
+
+.category-2 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(23, 24, 24);
+    padding: 1.9rem;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 38px;
+}
+
+
+/*-------------------------------------------------------- CARDS CAROUSEL -----------------------------------------------------------------------*/
+
+body .wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+}
+
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.carousel .card {
+    line-height: 400px;
+    min-width: 300px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600px;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(3, 3, 3, 0.2);
+}
+
+.carousel .card-1 {
+    background: #ed1c24;
+
+}
+
+.carousel .card-2 {
+    background: #0072bc;
+}
+
+.carousel .card-3 {
+    background: #39b54a;
+}
+
+.carousel .card-4 {
+    background: #f26522;
+}
+
+
+.carousel .card-5 {
+    background: #630460;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-left: 4px;
+}
+
+.owl-dot {
+    height: 10px;
+    width: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    border: 2px solid #0072bc !important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+    background: #0072bc !important;
+}
+
+/*-------------------------------------------------------- CARDS -----------------------------------------------------------------------*/
+
+.segundacategoriadecards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.content-1 .book2 {
+    position: relative;
+    justify-content: center;
+    width: 280px;
+    height: 400px;
+    margin: 0 30px;
+    box-shadow: 15px 20px 15px rgb(158, 156, 156);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+
+/*----------------------------------------------------------------- DESCRIÇÃO DO LIVRO --------------------------------------------------------*/
+
+.descrição-I {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    z-index: 1;
+    padding: 10px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+
+
+/*---------------------------------------------------------------- PARAGRAFO DO LIVRO ---------------------------------------------------------*/
+.paragrafo-I {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    margin: 0 45px 30px;
+    flex-wrap: wrap;
+
+}
+
+/*---------------------------------------------------------------- AUTOR DO LIVRO -------------------------------------------------------------*/
+.Autor-I {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: start;
+    width: 280px;
+    margin: 0 60px 40px;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(97, 94, 94);
+}
+
+.terceiracategoriadecards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.content-2 .book3 {
+    position: relative;
+    justify-content: center;
+    width: 280px;
+    height: 400px;
+    margin: 0 30px;
+    box-shadow: 15px 20px 15px rgb(158, 156, 156);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}

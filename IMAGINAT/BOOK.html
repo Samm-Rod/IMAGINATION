@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Imagination Store</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='PROTOTYPE-III.css'>
+    <!-- interligação do HTML5 com CSS3 -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- Font da logo -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Font Menu -->
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+    <!--Font Category-1 Best sellers ... -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jqueery script-1-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- ajax script-2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Style-1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <!-- Font do Título dos Cards -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font do Autor -->
+    <script src='main.js'></script>
+</head>
+
+
+<body>
+    <!--------------------------------------------------------------- MENU --------------------------------------------------------------------->
+    <header class="menu-1">
+
+        <a id="imagination" href="#">Imagination</a>
+
+        <ul class="menu">
+            <li><a href="home">Home</a></li>
+            <li><a href="categories">Categories</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="account">Account</a></li>
+        </ul>
+    </header>
+    <!----------------------------------------------------------- BEST SELLERS --------------------------------------------------------------->
+    <div>
+        <h2 class="category-1">Best sellers</h2>
+    </div>
+
+    <!------------------------------------------------------------------ CARDS CAROUSEL ------------------------------------------------------------------>
+    <section class="container">
+
+        <div class="wrapper">
+            <div class="carousel owl-carousel">
+
+                <a href="#"><img class="card card-1" src="wallpaper books/o poder do habito1.png" height="510px"></a>
+
+                <a href="#"><img class="card card-2" src="wallpaper books/Pai rico Pai pobre.jpg" height="510px"></a>
+
+                <a href="#"><img class="card card-3" src="wallpaper books/Harry poter e a pedra filosofal.jpg"
+                        height="510px"></a>
+
+                <a href="#"><img class="card card-4" src="wallpaper books/Elon Musk.jpg" height="510px"></a>
+
+                <a href="#"><img class="card card-5" src="wallpaper books/Book A sutil arte.jpg" height="510px"></a>
+
+                <a href="#"><img class="card card-5" src="wallpaper books/Dom Quixote.jpg" height="510px"></a>
+
+            </div>
+        </div>
+        </div>
+
+
+        <!---------------------------------------------------------------- SCRIPT/CARDS CAROUSEL ------------------------------------------------------------------>
+        <script>
+            $(".carousel").owlCarousel({
+                margin: 10,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHouverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+
+
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+
+
+                    1000: {
+                        items: 3,
+                        nav: false
+                    },
+
+                }
+            });
+        </script>
+
+    </section>
+
+    <!----------------------------------------------------------- BIOGRAFIAS ------------------------------------------------------------------->
+
+    <div>
+        <h2 class="category-2">Biografias</h2>
+    </div>
+
+    <!--------------------------------------------------------------- CARDS ------------------------------------------------------------------>
+
+    <section class="segundacategoriadecards">
+        <div class="content-1">
+            <a href="#"><img class="book2" src="wallpaper books/Dirário de Anne Frank.jpg" width="300px"
+                    height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">O diário de Anne Frank</h2>
+                </a>
+                <p class="paragrafo-I"> Publicado em mais de 60 idiomas e nos conduz pelas experiências da jovem
+                    <br>Anne Frank, que, junto com a sua família, vai morar num bunker para se esconder do regime
+                    nazista vigente na Alemanha de Hitler.</p>
+                <h3 class="Autor-I">By Anne Frank</h3>
+            </div>
+        </div>
+
+        <div class="content-1">
+            <a href="#"><img class="book2" src="wallpaper books/Sonho grande.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Sonho grande</h2>
+                </a>
+                <p class="paragrafo-I">Jorge Paulo Lemann, Marcel Telles e Beto Sicupira ergueram, em pouco mais de
+                    quatro décadas, o maior império da história do
+                    <br>capitalismo brasileiro e ganharam uma projeção sem precedentes no ...</p>
+                <h3 class="Autor-I">By Cristiane Correa</h3>
+            </div>
+        </div>
+
+        <div class="content-1">
+            <a href="#"><img class="book2" src="wallpaper books/Winston Churchill Bio.jpg" width="300px"
+                    height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Churchill: uma vida </h2>
+                </a>
+                <p class="paragrafo-I">Churchill uma vida é o casamento perfeito entre a dureza dos fatos da vida
+                    pública e os detalhes íntimos de um homem que exerceu
+                    <br>papel preponderante para a divisão do mundo como o conhecemos hoje ...</p>
+                <h3 class="Autor-I">By Winston Churchill</h3>
+            </div>
+        </div>
+
+        <div class="content-1">
+            <a href="#"><img class="book2" src="wallpaper books/Como o google.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Como o Google funciona</h2>
+                </a>
+                <p class="paragrafo-I">Em Como o Google funciona, Eric Schmidt e Jonathan Rosenberg reúnem as valiosas
+                    lições que fizeram da empresa uma gigante global
+                    <br>conhecida pela missão de inovar ...</p>
+                <h3 class="Autor-I">By Eric Schmidt & Jonathan Rosenberg</h3>
+            </div>
+        </div>
+
+        <div class="content-1">
+            <a href="#"><img class="book2" src="wallpaper books/A bola de neve.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">A bola de neve</h2>
+                </a>
+                <p class="paragrafo-I">Esse é o livro definitivo sobre a vida de um dos homens mais respeitados e
+                    fascinantes do mundo: Warren Buffett. O lendário investidor
+                    <br>pela primeira vez autorizou alguém a ... </p>
+                <h3 class="Autor-I">By Alice Schroeder</h3>
+            </div>
+        </div>
+
+        <div class="content-1">
+            <a href="#"><img class="book2" src="wallpaper books/Na raça.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Na Raça</h2>
+                </a>
+                <p class="paragrafo-I">Em 2001, Guilherme Benchimol iniciava sua carreira no mercado financeiro carioca
+                    quando perdeu o emprego. Envergonhado, decidiu fugir do Rio de Janeiro: pegou o carro
+                    <br> e dirigiu quase 20 horas até Porto ...</p>
+                <h3 class="Autor-I">By Maria Luiza Filgueiras</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------------------------- EDUCAÇÃO FINANCEIRA E INVESTIMENTOS ------------------------------------------>
+
+    <div>
+        <h2 class="category-2">Edução financeira e investimentos</h2>
+    </div>
+    <!------------------------------------------------------------------- CARDS -------------------------------------------------------->
+    <section class="terceiracategoriadecards">
+        <div class="content-2">
+            <a href="#"><img class="book3" src="wallpaper books/Pai rico Pai pobre.jpg" width="300px"
+                    height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Pai Rico, Pai Pobre</h2>
+                </a>
+                <p class="paragrafo-I">A escola prepara as crianças para o mundo real? Essa é a primeira pergunta com a
+                    qual o leitor se depara neste livro.
+                    <br>O Recado é ousado e direto: boa formação e notas altas não ...</p>
+                <h3 class="Autor-I">By Robert kiyosaki</h3>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <a href="#"><img class="book3" src="wallpaper books/HMRB.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">O homem mais rico da Babilônia</h2>
+                </a>
+                <p class="paragrafo-I">Nesta versão, Karen McCreadie reúne as grandes lições do livro original e faz uma
+                    série de comentários sob um olhar
+                    <br>do nosso tempo. Ao todo são 52 excelentes ideias que você pode colocar em prática imediatamente.
+                </p>
+                <h3 class="Autor-I">By George S. Clason</h3>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <a href="#"><img class="book3" src="wallpaper books/Faça fortuna com ações antes que seja tarde.jpg"
+                    width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Faça fortuna com ações ...</h2>
+                </a>
+                <p class="paragrafo-I"> “Faça Fortuna com Ações – Antes que seja tarde” consagrou-se como referência
+                    para leitores que buscam informação sobre o
+                    <br>investimento na Bolsa de Valores. Ao longo desses anos, ...</p>
+                <h3 class="Autor-I">By Decio Bazin</h3>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <a href="#"><img class="book3" src="wallpaper books/Do mil ao milhão sem cortar o caferzinho.jpg"
+                    width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Do mil ao milhão sem cortar ...</h2>
+                </a>
+                <p class="paragrafo-I">Em seu primeiro livro, Thiago Nigro, criador da plataforma O Primo Rico, ensina
+                    aos leitores os três pilares para atingir a
+                    <br>independência financeira: gastar bem, investir melhor e ganhar mais...</p>
+                <h3 class="Autor-I">By Thiago Nigro</h3>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <a href="#"><img class="book3" src="wallpaper books/Os segredos1.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">O segredo da mente milionária</h2>
+                </a>
+                <p class="paragrafo-I">O autor também ensina um método eficiente de administrar o dinheiro. Você
+                    aprenderá a estabelecer sua remuneração pelos
+                    <br>resultados que apresenta e não pelas horas que trabalha. Além disso, ...</p>
+                <h3 class="Autor-I">By T. Harv Eker</h3>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <a href="#"><img class="book3" src="wallpaper books/Me poupe!.jpg" width="300px" height="410px"></a>
+            <div class="text-I">
+                <a href="#">
+                    <h2 class="descrição-I">Me Poupe! : 10 passos ...</h2>
+                </a>
+                <p class="paragrafo-I">Nathalia Arcuri é jornalista, educadora e coach financeira. Aos 7 anos começou a
+                    poupar para comprar um carro quando
+                    <br>fizesse 18. Com 23 comprou o primeiro apartamento à vista. Aos 30 ...</p>
+                <h3 class="Autor-I">By Nathalia Arcuri</h3>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
