@@ -1,6 +1,17 @@
-# IMAGINATION
+<h1 align="center"> :computer: IMAGINATION :heavy_check_mark: </h1>
  
-## Modelo de uma livraria online 
-### Detalhe
+## :dart: O que é ?
+```
+É uma loja online criada por mim ainda em desenvolvimento.
+```
 
- Tive dificuldades para subir as imagens 
+## :artificial_satellite: Tecnologias
+> + HTML;
+> + CSS;
+> + JAVASCRIPT;
+
+## :boat: Front-end
+
+## :coffee: Autor: 
+
+<h3 align="center"><i> :fleur_de_lis: Samuel Rodrigues :fleur_de_lis: </i></h3>
